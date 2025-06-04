@@ -1,88 +1,82 @@
+Developed with ❤️ by Sumit Sharma
+📧 Email: 2023csb1165@iitrpr.ac.in
+🔗 GitHub: sumitcodingin
+🔗 LinkedIn: Sumit Sharma
 
+# 🧠 AI Mock Interview Platform
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+An AI-powered mock interview platform where users can generate, conduct, and receive feedback on job interviews using cutting-edge voice AI and generative models.
 
-- Next.js
-- Firebase
-- Tailwind CSS
-- Vapi AI
-- shadcn/ui
-- Google Gemeni
-- Zod
+---
 
-## <a name="features">🔋 Features</a>
+## ⚙️ Tech Stack
 
-👉 **Authentication**: Sign Up and Sign In using password/email authentication handled by Firebase.
+- **Next.js** – React framework for fast and scalable web apps  
+- **Firebase** – Authentication and backend services  
+- **Tailwind CSS** – Utility-first CSS for modern UI styling  
+- **Vapi AI** – Voice assistant integration for real-time interaction  
+- **shadcn/ui** – Prebuilt accessible UI components  
+- **Google Gemini** – AI model for generating interview content and feedback  
+- **Zod** – Type-safe schema validation
 
-👉 **Create Interviews**: Easily generate job interviews with help of Vapi voice assistants and Google Gemini.
+---
 
-👉 **Get feedback from AI**: Take the interview with AI voice agent, and receive instant feedback based on your conversation.
+## 🔋 Features
 
-👉 **Modern UI/UX**: A sleek and user-friendly interface designed for a great experience.
+👉 **Authentication**  
+Secure sign-up and sign-in with email/password authentication via Firebase.
 
-👉 **Interview Page**: Conduct AI-driven interviews with real-time feedback and detailed transcripts.
+👉 **Generate Interviews**  
+Create job interviews using voice assistants powered by Vapi AI and Google Gemini.
 
-👉 **Dashboard**: Manage and track all your interviews with easy navigation.
+👉 **AI Feedback**  
+Participate in voice-based interviews and receive instant, AI-generated feedback.
 
-👉 **Responsiveness**: Fully responsive design that works seamlessly across devices.
+👉 **Modern UI/UX**  
+Sleek, intuitive design built with Tailwind CSS and shadcn/ui.
 
-and many more, including code architecture and reusability
+👉 **Interview Page**  
+Real-time interview sessions with feedback, transcripts, and a smooth voice interface.
 
-## <a name="quick-start">🤸 Quick Start</a>
+👉 **Dashboard**  
+Manage all your interviews in one place with a clean, user-friendly dashboard.
 
-Follow these steps to set up the project locally on your machine.
+👉 **Responsive Design**  
+Works seamlessly on desktops, tablets, and mobile devices.
 
-**Prerequisites**
+...and much more — including modular code architecture and high reusability.
 
-Make sure you have the following installed on your machine:
+---
+
+## 🤸 Quick Start
+
+Follow these steps to run the project locally.
+
+### ✅ Prerequisites
+
+Make sure you have the following installed:
 
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
+---
 
-```bash
+### 📦 Installation
 
-
-**Installation**
-
-Install the project dependencies using npm:
+Clone the repository and install dependencies:
 
 ```bash
+git clone https://github.com/sumitcodingin/ai_mock_interviews.git
+cd ai_mock_interviews
 npm install
-```
 
-**Set Up Environment Variables**
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+---
 
-```env
-NEXT_PUBLIC_VAPI_WEB_TOKEN=
-NEXT_PUBLIC_VAPI_WORKFLOW_ID=
-
-GOOGLE_GENERATIVE_AI_API_KEY=
-
-NEXT_PUBLIC_BASE_URL=
-
-NEXT_PUBLIC_FIREBASE_API_KEY=
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-NEXT_PUBLIC_FIREBASE_APP_ID=
-
-FIREBASE_PROJECT_ID=
-FIREBASE_CLIENT_EMAIL=
-FIREBASE_PRIVATE_KEY=
-```
-
-Replace the placeholder values with your actual **[Firebase](https://firebase.google.com/)**, **[Vapi](https://vapi.ai/?utm_source=youtube&utm_medium=video&utm_campaign=jsmastery_recruitingpractice&utm_content=paid_partner&utm_term=recruitingpractice)** credentials.
-
-**Running the Project**
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Let me know if you’d like to add:
+- Screenshots or demo GIFs
+- Deployment instructions (like with Vercel or Netlify)
+- Badges (build passing, license, etc.)  
+I can help set those up too.
 
