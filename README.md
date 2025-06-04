@@ -1,7 +1,7 @@
 Developed with ❤️ by Sumit Sharma
-📧 Email: 2023csb1165@iitrpr.ac.in
-🔗 GitHub: sumitcodingin
-🔗 LinkedIn: Sumit Sharma
+📧 Email : sharmasumit0118@gmail.com
+🔗 GitHub: https://github.com/sumitcodingin
+🔗 LinkedIn: https://www.linkedin.com/in/sumit-sharma-053ba5294/
 
 # 🧠 AI Mock Interview Platform
 
